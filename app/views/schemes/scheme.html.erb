@@ -1,0 +1,26 @@
+
+  <div class="col s12">
+      <ul class="collapsible popout" data-collapsible="accordion">
+        <li class="collection-header"><h4>Schemes</h4></li>
+
+
+
+                   <% @res.each do |t|%>
+                   <li>
+               <div class="collapsible-header"><%= t["name"]%><i class="material-icons right">add</i></div>
+               <div class="collapsible-body"><div class="row"></div>
+
+
+                    <% if session[:user_id]%>
+                    <%= link_to "Register Here", url_for(controller: :schemes, action: :scheme_register), method: :post%>
+                    <%else%>
+                    <a href="/vlogin">Login TO Register On Scheme</a>
+                   <%end%>
+                  </li>
+                    <%end%>
+
+
+
+       </ul>
+  </div>
+</div>

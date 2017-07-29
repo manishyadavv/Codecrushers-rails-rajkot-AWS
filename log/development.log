@@ -1,0 +1,2872 @@
+Started GET "/" for 127.0.0.1 at 2017-07-28 23:32:19 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4351ms (Views: 4339.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-28 23:32:35 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 143ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-28 23:32:45 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-28 23:32:50 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 49ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-28 23:32:53 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-28 23:32:56 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 54ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-28 23:35:26 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-28 23:35:29 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-28 23:35:39 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8SY3mooRpA1YsvJksqPNLB4UrrPhtWVNMPN/0S7XnYJnwuVQVmQfFAeJqwP31mhQISjvk6tPtZf8gwh+fytTVA==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/vlogin
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-28 23:35:39 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-28 23:48:54 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-28 23:50:20 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-28 23:51:02 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-28 23:51:17 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-28 23:56:08 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-28 23:59:10 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:39:49 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 396ms (Views: 382.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 06:40:19 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:45:37 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:47:00 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:49:55 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:51:19 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:51:30 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 162ms (Views: 158.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:53:22 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:53:41 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:54:04 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:55:12 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 71ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:56:03 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:57:35 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 06:57:52 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 06:58:38 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/images/Slider/12.jpg" for 127.0.0.1 at 2017-07-29 07:01:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/images/Slider/12.jpg"):
+  
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered collection of /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (16.3ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.4ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (226.0ms)
+Started GET "/" for 127.0.0.1 at 2017-07-29 07:02:16 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 07:02:46 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hometab" for 127.0.0.1 at 2017-07-29 07:02:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/hometab"):
+  
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered collection of /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (5.1ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (106.4ms)
+Started GET "/" for 127.0.0.1 at 2017-07-29 07:03:17 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:03:21 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:09:54 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:11:47 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 385ms (Views: 374.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:12:39 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:13:15 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:13:30 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:20:21 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 07:20:30 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:23:09 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:24:43 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:24:48 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:25:49 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:26:13 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:26:45 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2509ms (Views: 2507.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:29:02 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 07:32:02 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:33:45 +0530
+Processing by SchemesController#scheme as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to 127.0.0.1:8000 (Connection refused - connect(2) for "127.0.0.1" port 8000)):
+  
+app/controllers/schemes_controller.rb:8:in `scheme'
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.4ms)
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:35:52 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^):
+  
+app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.6ms)
+Started GET "/" for 127.0.0.1 at 2017-07-29 07:36:00 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:36:05 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^):
+  
+app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.0ms)
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:36:38 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:38:14 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:39:03 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:39:26 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 07:39:31 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 07:39:38 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 59ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 07:39:49 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 08:12:04 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 08:14:42 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 08:15:41 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 08:16:14 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 08:16:19 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 64ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/registration" for 127.0.0.1 at 2017-07-29 08:17:00 +0530
+Processing by LoginController#registration as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I9qDLxe8suVp2QY4n186RovrtwSylbH00xMuMAIt16RnBtmjAScJ/Xv4vd20jkwpw0nJGHDVgxA9VctCtRAdNQ==", "name"=>"MANISH YADAV", "Gender"=>"male", "father"=>"shamsher ", "spouse"=>"none ", "pan"=>"AAAAA5555K", "aadhar"=>"111111111111", "user"=>{"address"=>"manish@gmail.com", "born_on"=>"2017-07-31"}, "password"=>"[FILTERED]", "phone"=>"9999999999", "address"=>"fkshfksd fsd fds fkds fkds kf kds fkds f dsk fksd ", "commit"=>"Register"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 43ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 08:17:00 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 08:17:04 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 08:17:13 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WGQSYv02UxjIoB/0zfJSSy08WznnSRJy8Be/U4mrV3ccuEju663oANqBpBHmIyQkZZ4lJSUJIJYeUVohPpad5g==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 34ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 08:17:13 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 08:17:32 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 08:17:41 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 08:19:45 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 69ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 08:22:13 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 12:13:07 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 585ms (Views: 571.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 12:23:38 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 74ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 12:32:37 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 12:33:55 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 12:34:26 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 12:34:46 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 12:34:50 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 12:36:34 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 66ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 12:37:22 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 12:37:37 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 56ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 12:37:40 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 13:04:11 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 13:07:09 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 53ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 13:07:55 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 58ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 13:11:02 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iB1sNBH+Wwq5OjJzwEFNcR924Bd2tVrybuMS8XceTiTunUu8dD6LIw0FLcVYgaHvC00UIHk6uKm7W5Oi+6VV6g==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/vlogin
+Completed 302 Found in 90ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 13:11:02 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 13:11:41 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/registration" for 127.0.0.1 at 2017-07-29 13:12:33 +0530
+Processing by LoginController#registration as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oOasRbu2lph5fUQkte2mPB8IYfKgxtRilm9JO9io1ZPGZovN3nZGsc1CW5ItLUqiCzOVxa9JNjlD18hoVBPOXQ==", "name"=>"MANISH YADAV", "Gender"=>"male", "father"=>"shamsher ", "spouse"=>"none ", "pan"=>"ARTPY5555K", "aadhar"=>"111111111111", "user"=>{"address"=>"manish@gmail.com", "born_on"=>"2017-07-12"}, "password"=>"[FILTERED]", "phone"=>"9999999999", "address"=>"hdihdks d d . kd . d d . da ds", "commit"=>"Register"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 53ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 13:12:33 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 13:12:42 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 13:20:49 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i7CxCYcMzxh6TQaJ6rTDdwVqK3DAUmaMDTBUvEoCO2vtMJaB4swfMc5yGT9ydC/pEVHfR8/dhNfYiNXvxrkgpQ==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 72ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 13:20:49 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 15:07:04 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 15:52:23 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2558ms (Views: 2544.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 15:52:31 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 15:53:41 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 15:54:29 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 15:59:22 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 15:59:59 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 16:00:45 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 16:01:08 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:01:21 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:02:42 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 127.0.0.1 at 2017-07-29 16:02:47 +0530
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"We9BTMVA99aKoFVWjYnAsRaFiTmIYLB+2ALLQBaFlJx4DSGMi++V84E+AsQ5w0r3syQ7WJXBrKBCMHLscZpD2Q=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:02:47 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:02:51 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:03:33 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:03:47 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 61ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 16:05:32 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DSo4eUNm6ghhWon2O4dk5fE6ubQW6kCwtuc8c65Ch5QsyFi5DcmILWrE3mSPze6jVJsL1QtLXG4s1YXfyV1Q0Q==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/vlogin
+Completed 302 Found in 33ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:05:32 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 16:09:17 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 78ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 16:10:41 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:10:50 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:11:46 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:11:59 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:12:10 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/User_profile" for 127.0.0.1 at 2017-07-29 16:12:26 +0530
+Processing by LoginController#User_profile as HTML
+  Rendering login/User_profile.html.erb within layouts/application
+  Rendered login/User_profile.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: 
+    2: Name : <%= @user["name"]%><br>
+    3: Father Name : <%= @user["father_name"]%><br>
+    4: Spouse Name : <%= @user["spouse_name"]%><br>
+    5: DOB : <%= @user["birth_date"]%><br>
+  
+app/views/login/User_profile.html.erb:2:in `_app_views_login__ser_profile_html_erb___2470180725178452261_70201464707720'
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (91.5ms)
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:12:38 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:12:58 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:13:44 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:19:02 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 16:19:06 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 16:20:36 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:20:44 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:22:16 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 73ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:22:32 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:23:49 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:25:21 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:25:37 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:25:50 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:26:17 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:29:13 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:29:39 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:29:56 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:54:43 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:54:48 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 16:55:52 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 16:56:33 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:56:58 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 16:58:09 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 16:58:14 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 16:58:19 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 60ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/registration" for 127.0.0.1 at 2017-07-29 16:59:17 +0530
+Processing by LoginController#registration as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zw+sWcUcz1Ob9t/QZbFQ6ePG3ef0XA6XHx6vcnM1tlplrKd1VyVxtI9cA/mQnecAF3PxohnSP/Ulb1kRDr9hAw==", "name"=>"Manish yadav", "Gender"=>"male", "father"=>"shamsher", "spouse"=>"none", "pan"=>"ARTOY5555k", "aadhar"=>"111111111111", "user"=>{"address"=>"manish@gmail.com", "born_on"=>"2017-07-07"}, "password"=>"[FILTERED]", "phone"=>"9999999999", "address"=>"bjhd cdd . sd sd . s sd", "commit"=>"Register"}
+Redirected to http://localhost:3000/vregistration
+Completed 302 Found in 22ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 16:59:17 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/registration" for 127.0.0.1 at 2017-07-29 17:00:08 +0530
+Processing by LoginController#registration as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EcE5erP8McalejPJdMQTSN+POtbhAZAVT4+LOUOGFJ4TYjJWIcWPIbHQ7+CB6KShKzoWkwyPoXd1/n1aPgzDxw==", "name"=>"Manish yadav", "Gender"=>"male", "father"=>"shamsher", "spouse"=>"none", "pan"=>"ARTPY4444K", "aadhar"=>"111111111111", "user"=>{"address"=>"manish@gmail.com", "born_on"=>"2017-07-30"}, "password"=>"[FILTERED]", "phone"=>"9999999999", "address"=>"sdfds df ds fsd f ds fsd ", "commit"=>"Register"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:00:08 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 17:00:11 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 17:00:20 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lT1zFPLPSLPJTwdcVQ4t5f06rbhsjCqQy4yVSgOtLM6Xnng4YPb2VN3l23WgIpoMCY+B/YECG/Lx/WMpfif7lw==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:00:20 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 127.0.0.1 at 2017-07-29 17:00:45 +0530
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"bcil8jobIkTgR7yYKFCxWUnZA1zoLeCrbeIPZHnIRr1va67eqCKco/TtYLHdfAawvWwvGQWj0clXk/kHBEKR5A=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 56ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:00:45 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 17:00:51 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 79ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:06:13 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 532ms (Views: 517.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 17:06:17 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 17:07:58 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-29 17:08:13 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 71ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-29 17:08:47 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 17:08:53 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 127.0.0.1 at 2017-07-29 17:09:01 +0530
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 127.0.0.1 at 2017-07-29 17:09:18 +0530
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-29 17:09:35 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 127.0.0.1 at 2017-07-29 17:09:41 +0530
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:27:43 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 17:27:58 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 55ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 17:28:07 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7/LDo+hjlUo/EYwQN6vQdLQQ6e7xIGp2OHKAKilLC83tUciPelorrSu7UDnCh2edQKXFqxyuWxQCA3ZJVMHclA==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:28:07 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:28:41 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:28:53 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:29:08 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:31:45 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:31:55 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 17:32:30 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 17:34:07 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 17:34:16 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6xb5x66g5clmcFhZeZCK3V4XaRloz1r/SxA5UeJN5kbfQMkvsVhz/SK5QZE7ijeT4RhD8rsg2UsmQkpwL1jWqQ==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/vlogin
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 17:34:16 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:34:41 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/User_profile" for 127.0.0.1 at 2017-07-29 17:34:54 +0530
+Processing by LoginController#User_profile as HTML
+  Rendering login/User_profile.html.erb within layouts/application
+  Rendered login/User_profile.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 90ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 127.0.0.1 at 2017-07-29 17:35:02 +0530
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"Yi1DGsW3tgv1ukr4i1/H5aKjGkk0xszKmH/a/hcsGzBgjkg2V44I7OEQltF+c3AMVhY2DNlI/aiiDiydaqbMaQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 31ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:35:02 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 17:35:08 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 17:35:15 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pe5gZy6OyqP0IVU8lBlrjP3pPrtOI8ZxKDzlAWtxFhmnTWtLvLd0ROCLiRVhNdxlCVwS/qOt9xMSTRNiFvvBQA==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 23ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:35:15 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/User_profile" for 127.0.0.1 at 2017-07-29 17:35:31 +0530
+Processing by LoginController#User_profile as HTML
+  Rendering login/User_profile.html.erb within layouts/application
+  Rendered login/User_profile.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 76ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 17:35:39 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2017-07-29 17:35:47 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/User_profile" for 127.0.0.1 at 2017-07-29 17:36:18 +0530
+Processing by LoginController#User_profile as HTML
+  Rendering login/User_profile.html.erb within layouts/application
+  Rendered login/User_profile.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 79ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 17:39:11 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 17:48:05 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 127.0.0.1 at 2017-07-29 17:48:21 +0530
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 127.0.0.1 at 2017-07-29 17:48:48 +0530
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-29 17:48:52 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-29 17:49:43 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 127.0.0.1 at 2017-07-29 17:49:48 +0530
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 127.0.0.1 at 2017-07-29 17:50:11 +0530
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 127.0.0.1 at 2017-07-29 17:50:52 +0530
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2017-07-29 17:51:48 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2017-07-29 17:53:07 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2017-07-29 17:54:36 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 64ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 17:54:42 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 127.0.0.1 at 2017-07-29 17:54:53 +0530
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"/prAMDoK9DVys7gvIEwZeD5ajmyoDnYgexdNgNH+d4H8OcscqDNK0mYZZAbVYK6Ryu+iKUWAR0JBZrvjrHSg2A=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 33ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:54:53 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 17:54:58 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 18:44:57 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-07-29 18:45:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (14.7ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (133.3ms)
+Started GET "/" for 127.0.0.1 at 2017-07-29 18:46:20 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/avlogin" for 127.0.0.1 at 2017-07-29 18:46:51 +0530
+Processing by AdminController#avlogin as HTML
+  Rendering admin/avlogin.html.erb within layouts/admin
+  Rendered admin/avlogin.html.erb within layouts/admin (1.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:68: syntax error, unexpected tSTRING_DEND, expecting ')'
+..._to "Log out", :method => :get} );@output_buffer.safe_append...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:69: syntax error, unexpected keyword_end, expecting ')'
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:76: syntax error, unexpected '}', expecting ')'
+..._to "Log out", :method => :get} );@output_buffer.safe_append...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:77: syntax error, unexpected keyword_end, expecting ')'
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:105: syntax error, unexpected '}', expecting ')'
+..._to "Log out", :method => :get} );@output_buffer.safe_append...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:106: syntax error, unexpected keyword_end, expecting ')'
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:354: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/layouts/admin.html.erb:356: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/admin.html.erb:68: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/layouts/admin.html.erb:69: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/admin.html.erb:76: syntax error, unexpected '}', expecting ')'
+app/views/layouts/admin.html.erb:77: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/admin.html.erb:105: syntax error, unexpected '}', expecting ')'
+app/views/layouts/admin.html.erb:106: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/admin.html.erb:354: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/admin.html.erb:356: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.8ms)
+Started GET "/" for 127.0.0.1 at 2017-07-29 19:40:39 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:40:57 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 64ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 19:41:07 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 19:41:17 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"90ZdSxlY1WLiql3Euw1yPCcMoGSnz2VQnynBmYYvV+z15VZni2FrhfYAge1OIcXV07mMIUpBVDKlWDf6+6WAtQ==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 19:41:17 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:41:21 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:42:19 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 59ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:47:36 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:49:02 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 61ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:52:01 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 63ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:54:12 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 57ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:56:29 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:57:21 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:57:36 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 63ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 19:59:15 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 71ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:00:21 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 71ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:01:28 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 60ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:01:56 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 82ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:02:17 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 63ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:03:20 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 61ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:03:31 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 114ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:04:25 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 59ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:04:45 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^):
+  
+app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.1ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.2ms)
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:05:32 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 59ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:06:40 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 61ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:07:37 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 60ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:08:49 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 58ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:11:08 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 20:12:04 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-29 20:12:14 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 70ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 127.0.0.1 at 2017-07-29 20:12:20 +0530
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"eM1NilMePNd2y4gabsANaCRZVVeiCLtQ7Bip/ZY6mV16bkamwSeCMGJhVDOb7LqB0Ox5Ek+GijLWaV+e67BOBA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 20:12:20 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 20:12:27 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 20:12:36 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5+maz1N80E2tcCVpzhGYJqcA5mk0v3/odvum25f6e6jlSpHjwUVuqrna+UA7PS/PU7XKLNkxTopMilC46nCs8Q==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 20:12:36 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 20:12:48 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:12:53 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:19:11 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:34: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;              @res.each do |t|
+                                   ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:42: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:54: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/schemes/scheme.html.erb:34: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/schemes/scheme.html.erb:42: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/schemes/scheme.html.erb:54: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.2ms)
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:19:24 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:34: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;              @res.each do |t|
+                                   ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:42: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:53: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/schemes/scheme.html.erb:34: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/schemes/scheme.html.erb:42: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/schemes/scheme.html.erb:53: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.1ms)
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:20:04 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:34: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;              @res.each do |t|
+                                   ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:42: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^
+/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:54: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/schemes/scheme.html.erb:15: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/schemes/scheme.html.erb:34: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/schemes/scheme.html.erb:42: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+app/views/schemes/scheme.html.erb:54: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.7ms)
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:20:53 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/manishyadav/Desktop/CodeCrushers-Rails/app/views/schemes/scheme.html.erb:13: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...es, action: :scheme_register,:), method: :post);@output_buff...
+...                               ^):
+  
+app/views/schemes/scheme.html.erb:13: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.4ms)
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:21:01 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 61ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:21:29 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:22:01 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 73ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/scheme_register" for 127.0.0.1 at 2017-07-29 20:25:29 +0530
+Processing by SchemesController#scheme_register as HTML
+  Parameters: {"authenticity_token"=>"ve4/3FO4NuuH0F/NDSVGwJ0R9M6tFRXVxRFUJPHoX9i/TTTwwYGIDJN6g+T4CfEpaaTYi0CbJLf/YKJHjGKIgQ=="}
+No template found for SchemesController#scheme_register, rendering head :no_content
+Completed 204 No Content in 67ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:26:25 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 68ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:27:04 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 74ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:28:23 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:31:23 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 20:37:14 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 20:37:20 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 127.0.0.1 at 2017-07-29 20:37:31 +0530
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"XMUviAhYEO3NxZHXeZUJbQPyceI03iseB1myDmK9z9leZiSkmmGuCtlvTf6Mub6E90ddp9lQGnw9KERtHzcYgA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 34ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 20:37:31 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-29 20:37:36 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 54ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-29 20:37:48 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-29 20:37:57 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"If2ylLKI8EvJy5M0ICuiKHEDBbSGQq3eHXVFZ0p9lY8jXrm4ILFOrN1hTx3VBxXBhbYp8WvMnLwnBLMEN/dC1g==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 28ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 20:37:57 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:38:03 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 20:39:01 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 127.0.0.1 at 2017-07-29 20:39:38 +0530
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-29 20:39:47 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 127.0.0.1 at 2017-07-29 20:39:53 +0530
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2017-07-29 20:40:04 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 20:40:13 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:41:27 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2017-07-29 20:43:23 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-29 20:44:36 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 20:45:10 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 127.0.0.1 at 2017-07-29 20:47:30 +0530
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"l/qaANpyIGj8GLZO3GIVxQsGbLyIb9hCkBe6nVQ8oOiVWZEsSEuej+iyamcpTqIs/7NA+WXh6SCqZkz+KbZ3sQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 38ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 20:47:30 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-29 20:47:36 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 20:52:58 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-29 23:07:53 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 534ms (Views: 519.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 23:08:01 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 78ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-29 23:09:28 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 90ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.3.169 at 2017-07-29 23:12:07 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 373ms (Views: 363.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 10.70.3.169 at 2017-07-29 23:12:13 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.70.3.169 at 2017-07-29 23:12:24 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SS5gXJ5S4yBO3XKQTi+4fiVL1voqAVjbUABuPTXiON7JLanIaoBBSKes2dVvBX5+MU3OTv6j+TorSwl1fSEv4Q==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://10.70.3.169:3000/
+Completed 302 Found in 28ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.3.169 at 2017-07-29 23:12:24 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/logout" for 10.70.3.169 at 2017-07-29 23:12:36 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#logout as HTML
+  Parameters: {"authenticity_token"=>"SQkQvVc89Ex09/KrCxk//5X579OEXUvh2Kxcfh+N0z3JCtkpo+5WJJ2GWe4qM/n/gf/3Z1D/6gCj5zs2V07EAg=="}
+Redirected to http://10.70.3.169:3000/
+Completed 302 Found in 65ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.3.169 at 2017-07-29 23:12:36 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.7.63 at 2017-07-29 23:16:05 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 10.70.7.63 at 2017-07-29 23:17:05 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.6.163 at 2017-07-29 23:17:05 +0530
+Cannot render console from 10.70.6.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 10.70.7.63 at 2017-07-29 23:17:16 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 10.70.7.63 at 2017-07-29 23:17:22 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 10.70.7.63 at 2017-07-29 23:17:31 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 10.70.7.63 at 2017-07-29 23:17:44 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 10.70.7.63 at 2017-07-29 23:17:53 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 10.70.7.63 at 2017-07-29 23:18:16 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.6.163 at 2017-07-29 23:18:22 +0530
+Cannot render console from 10.70.6.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 10.70.6.163 at 2017-07-29 23:18:59 +0530
+Cannot render console from 10.70.6.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 10.70.6.163 at 2017-07-29 23:19:38 +0530
+Cannot render console from 10.70.6.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.7.95 at 2017-07-29 23:22:38 +0530
+Cannot render console from 10.70.7.95! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.7.95 at 2017-07-29 23:23:24 +0530
+Cannot render console from 10.70.7.95! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.3.169 at 2017-07-29 23:24:35 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.3.169 at 2017-07-29 23:27:28 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.3.169 at 2017-07-29 23:27:53 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.7.63 at 2017-07-29 23:28:39 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.7.63 at 2017-07-29 23:29:28 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.7.63 at 2017-07-29 23:32:16 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 10.70.7.63 at 2017-07-29 23:32:53 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 10.70.7.63 at 2017-07-29 23:33:43 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 10.70.7.63 at 2017-07-29 23:34:51 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 10.70.7.63 at 2017-07-29 23:35:19 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.70.3.169 at 2017-07-29 23:36:13 +0530
+Cannot render console from 10.70.3.169! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 10.70.7.63 at 2017-07-29 23:36:19 +0530
+Cannot render console from 10.70.7.63! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.43.1 at 2017-07-29 23:40:04 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [31 times] (11.5ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.0ms)
+  Rendering /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
+  Rendered /Users/manishyadav/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (177.9ms)
+Started GET "/" for 192.168.43.1 at 2017-07-29 23:40:10 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 353ms (Views: 350.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.43.1 at 2017-07-29 23:41:55 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.43.1 at 2017-07-29 23:42:24 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.43.140 at 2017-07-29 23:43:44 +0530
+Cannot render console from 192.168.43.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.43.1 at 2017-07-29 23:43:51 +0530
+Cannot render console from 192.168.43.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.43.140 at 2017-07-29 23:44:44 +0530
+Cannot render console from 192.168.43.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 192.168.43.140 at 2017-07-29 23:49:44 +0530
+Cannot render console from 192.168.43.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 192.168.43.140 at 2017-07-29 23:49:47 +0530
+Cannot render console from 192.168.43.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-30 00:04:18 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 381ms (Views: 368.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-30 00:04:24 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 127.0.0.1 at 2017-07-30 00:04:38 +0530
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-30 00:04:44 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 58ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 127.0.0.1 at 2017-07-30 00:04:59 +0530
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-30 00:05:05 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2017-07-30 00:05:12 +0530
+Processing by SchemesController#notification as HTML
+  Rendering schemes/notification.html.erb within layouts/application
+  Rendered schemes/notification.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 00:05:20 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (9.4ms)
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 00:05:20 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 84ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 87ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-30 00:05:24 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/ray" for 127.0.0.1 at 2017-07-30 00:06:33 +0530
+Processing by HomeController#ray as HTML
+  Rendering home/ray.html.erb within layouts/application
+  Rendered home/ray.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/smartcity" for 127.0.0.1 at 2017-07-30 00:06:50 +0530
+Processing by HomeController#smartcity as HTML
+  Rendering home/smartcity.html.erb within layouts/application
+  Rendered home/smartcity.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/location" for 127.0.0.1 at 2017-07-30 00:06:53 +0530
+Processing by HomeController#location as HTML
+  Rendering home/location.html.erb within layouts/application
+  Rendered home/location.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schemes/scheme" for 127.0.0.1 at 2017-07-30 00:07:01 +0530
+Processing by SchemesController#scheme as HTML
+  Rendering schemes/scheme.html.erb within layouts/application
+  Rendered schemes/scheme.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 00:08:14 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vregistration" for 127.0.0.1 at 2017-07-30 00:08:20 +0530
+Processing by LoginController#vregistration as HTML
+  Rendering login/vregistration.html.erb within layouts/application
+  Rendered login/vregistration.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-30 00:11:59 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 91ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/hometab" for 127.0.0.1 at 2017-07-30 00:12:48 +0530
+Processing by HomeController#hometab as HTML
+  Rendering home/hometab.html.erb within layouts/application
+  Rendered home/hometab.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 00:14:15 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-30 00:16:14 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 00:44:02 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 62ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 00:54:16 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 00:57:10 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-30 00:57:21 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LCRsrdQbZE2BMn4TmS8SOANRyIi79hjviHhJ5SB4frouh2eBRiLaqpWYojpsA6XR9+TkzVZ4KY2yCb+GXfKp4w==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 28ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-30 00:57:21 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-30 01:00:26 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-30 01:02:03 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-30 01:02:18 +0530
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 01:02:23 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-07-30 01:02:39 +0530
+Processing by LoginController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mMqPaOkGW8a6ZAZoo8yRn5coGTrngS9v3YDcNMDzTc5D1PmFRrs53MUhI9Qa/b4OkvvpEmmyNR8IDY1AOLiqNg==", "user"=>{"address"=>"manish@gmail.com"}, "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/vlogin
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/vlogin" for 127.0.0.1 at 2017-07-30 01:02:39 +0530
+Processing by LoginController#vlogin as HTML
+  Rendering login/vlogin.html.erb within layouts/application
+  Rendered login/vlogin.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+

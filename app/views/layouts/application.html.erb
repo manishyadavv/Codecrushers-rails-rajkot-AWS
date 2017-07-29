@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeCrushersRails</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+ <!-- Page preloader -->
+        <div id="hola">
+        <div id="preloader">
+        <span></span>
+        <span></span>
+          </div>
+            </div>
+
+
+
+
+  <div class="navbar-upper">
+  <nav >
+    <div class="nav-wrapper">
+      <div class="row">
+        <div class="col s12">
+          <a href="/home/hometab" class="brand-logo" style="display:block;float:left;"><img class="brand-logo" id="logopic"src="http://www.rmc.gov.in/rmcwebsite/images/Logo/RMClogo.png" ></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            <%if !session[:user_id]%>
+            <li><a class="waves-effect waves-light btn btn-small animated tada" href="/vlogin">login</a></li>
+            <li><a class="waves-effect waves-light btn btn-small animated tada" href="/vregistration">Register</a></li>
+            <%end%>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+<div class="navbar-lower">
+  <nav>
+    <div class="nav-wrapper" id="nav-lower">
+      <a href="#" class="brand-logo">Rajkot Municipal Corporation</a>
+      <div class="row">
+        <div class="col s12">
+
+          <a class="fadeInLogo brand-logo animated slideInUp">
+            <!-- M -->
+            <!-- <img src="https://materializecss.com/res/materialize.svg" alt="" style="margin-top:12px;" height="40px"/> -->
+            <i class="large material-icons">important_devices</i>
+          </a>
+
+
+
+
+                <ul  class="right hide-on-med-and-down">
+                <li><a href="/home/hometab">Home</a></li>
+                <li><a href="/home/ray">Rajkot Awas Yojna</a></li>
+                <li><a href="/home/smartcity">Smart City</a></li>
+                <li><a href="/home/location">Location</a></li>
+                <li><a href="/schemes/scheme">Schemes</a></li>
+                <li><a href="/home/contact">Contacts</a></li>
+                <li><a href="/notification"><i class="material-icons">add_alert</i></a></li>
+                <% if session[:user_id]%>
+                <li><a class="dropdown-button" href="#" data-activates="dropdown1"><i class="material-icons right">account_circle</i></a></li>
+                   <%end%>
+
+                </ul>
+
+
+
+
+        </div>
+
+      </div>
+      <!-- codeFORdropdown -->
+    <% if session[:user_id]%>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="/User_profile">Profile</a></li>
+        <li><a href="/">View Schemes</a></li>
+        <li><%= link_to "Logout", url_for(controller: :login, action: :logout), method: :post%></li>
+      </ul>
+      <%end%>
+<!-- end -->
+
+      <ul id="slide-out" class="side-nav">
+        <li><a href="/home/hometab">Home</a></li>
+        <li><a href="/home/ray">Rajkot Awas Yojna</a></li>
+        <li><a href="/home/smartcity">Smart City</a></li>
+        <li><a href="/home/location">Location</a></li>
+        <li><a href="/schemes/scheme">Schemes</a></li>
+        <li><a href="/home/contact">Contacts</a></li>
+        <li><a href="/notification"><i class="material-icons">add_alert</i></a></li>
+        <% if session[:user_id]%>
+        <li><a class="dropdown-button" href="#" data-activates="dropdown1"><i class="material-icons right">account_circle</i></a></li>
+           <%end%>
+
+
+
+
+      </ul>
+
+      <a href="" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+   </nav>
+</div>
+
+<main>
+<div class="container">
+<div class="row">
+<%= yield%>
+</div>
+</div>
+</main>
+
+
+    <footer class="page-footer indigo darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">About Rajkot Municipal Corporation</h5>
+              <p class="grey-text text-lighten-4">Rajkot Municipal Corporation (RMC) is a local government committed to provide basic infrastructure facilities including entertainment facilities to the people of the city.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+              <div id="fb-root"></div>
+              <div class="fb-page "
+              data-href="https://www.facebook.com/"
+              data-width="380"
+              data-layout="standard"
+              data-hide-cover="false"
+              data-action="share"
+              data-show-facepile="true">
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+           <a class="brown-text text-lighten-3" href="#">© 2017 Awass Yojna. All rights reserved.</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+  </body>
+</html>
+
+
+
+
+<style media="screen">
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+nav.nav-extended .nav-wrapper {
+    min-height: 71px;
+
+}
+main {
+  flex: 1 0 auto;
+}
+#logopic{
+
+    height: 66px;
+}
+
+#nav-lower
+{height: 80px;
+  }
+
+</style>
+
+<script type="text/javascript">
+$(".dropdown-button").dropdown();
+
+</script>

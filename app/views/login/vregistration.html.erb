@@ -1,0 +1,53 @@
+<br>
+<br>
+
+<%= form_tag('/registration', method: "post") do%>
+
+  <%= label_tag(:name, "Full Name:") %>
+  <%= text_field_tag(:name) %><br>
+
+  Gender :<%= radio_button_tag(:Gender, "male") %>
+  <%= label_tag(:Gender_male, "Male") %>
+  <%= radio_button_tag(:Gender, "female") %>
+  <%= label_tag(:Gender_female, "Female") %>
+  <%= radio_button_tag(:Gender, "other") %>
+  <%= label_tag(:Gender_other, "Other") %><br>
+
+
+  <%= label_tag(:father, "Father Name:") %>
+  <%= text_field_tag(:father) %><br>
+
+  <%= label_tag(:spouse, "Spouse Name:") %>
+  <%= text_field_tag(:spouse) %><br>
+
+  <%= label_tag(:pan, "Pan No:") %>
+  <%= text_field_tag(:pan) %><br>
+
+
+  <%= label_tag(:aadhar, "Aadhar No:") %>
+  <%= text_field_tag(:aadhar) %><br>
+
+
+
+  <%= select_tag(:Gender, '<option value="1">Male</option>, <option value="2">Female</option>') %><br>
+
+
+<%= label_tag(:address, "Email:") %>
+<%= email_field(:user, :address) %><br>
+
+<%= label_tag(:password, "password:") %>
+<%= password_field_tag(:password)%><br>
+
+<%= label_tag(:phone, "phone:") %>
+<%= text_field_tag(:phone)%><br>
+
+<%= label_tag(:address, "Address:") %>
+<%= text_area_tag(:address)%><br>
+
+<%= label_tag(:born_on, "DOB:") %>
+<%= date_field(:user, :born_on) %>
+
+<%= submit_tag 'Register',:class=>("btn waves-effect waves-light col s12")%>
+<a href="/vlogin">Login</a>
+
+<%end%>
